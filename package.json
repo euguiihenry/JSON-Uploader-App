@@ -1,0 +1,33 @@
+{
+  "name": "json-uploader-app",
+  "version": "1.0.0",
+  "description": "App made to upload a JSON file from a GitHub repository",
+  "main": "main.js",
+  "scripts": {
+    "test": "vercel dev or ng serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euguiihenry/JSON-Uploader-App.git"
+  },
+  "keywords": [
+    "json-uploader",
+    "json-uploader-app",
+    "node-serverless-app",
+    "vercel-node"
+  ],
+  "author": "Guilherme Henrique",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/euguiihenry/JSON-Uploader-App/issues"
+  },
+  "homepage": "https://github.com/euguiihenry/JSON-Uploader-App#readme",
+  "dependencies": {
+    "@vercel/node": "^2.13.0",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "google-translate-open-api": "^1.3.7",
+    "nodemon": "^2.0.22"
+  }
+}

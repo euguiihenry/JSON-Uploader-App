@@ -1,0 +1,20 @@
+{
+    "routes": [
+        {
+            "src": "/api/cards",
+            "methods": [
+                "GET",
+                "POST"
+            ],
+            "dest": "/api/projectsCards.js"
+        },
+        {
+            "src": "/api/info",
+            "methods": [
+                "GET",
+                "POST"
+            ],
+            "dest": "/api/projectsInfo.js"
+        }
+    ]
+}

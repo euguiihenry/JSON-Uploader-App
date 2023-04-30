@@ -1,0 +1,1 @@
+// This will be the server that will GET and POST requests to info pages of the projects cards
